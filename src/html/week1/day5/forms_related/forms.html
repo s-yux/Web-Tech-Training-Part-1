@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="success.html">
+    <table>
+        <tr>
+            <td>
+                <label>First Name:</label>
+            </td>
+            <td>
+                <input required type="text" name="firstname" placeholder="E.g.John"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Last Name:</label>
+            </td>
+            <td>
+                <input required type="text" name="lastname" placeholder="E.g.Smith"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Email:</label>
+            </td>
+            <td>
+                <input required type="email" name="email" placeholder="E.g.aaa@gmail.com"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Phone Number:</label>
+            </td>
+            <td>
+                <input required type="number" name="phone" placeholder="E.g.+65 1234 5678"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>City:</label>
+            </td>
+            <td>
+                <input required type="text" name="city" placeholder="E.g.Singapore"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Password:</label>
+            </td>
+            <td>
+                <input required type="password" name="password" placeholder="Enter your password">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Select Date of Birth:</label>
+            </td>
+            <td>
+                <input type="date" name="dob">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Select Date of Birth:</label>
+            </td>
+            <td>
+                <input type="color" name="color">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Rate your HTML knowledge:</label>
+            </td>
+            <td>
+                <input type="range" min="1" max="10" name="range">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Are you married?</p>
+                <label for="my">
+                    Yes
+                    <input id="my" type="radio" name="married" value="">
+                </label>
+                <label for="mn">
+                    No
+                    <input id="mn" type="radio" name="married" value="">
+                </label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>
+                    How good are you at english
+                </p>
+                <input type="checkbox" name="status" value="read">Read<br>
+                <input type="checkbox" name="status" value="write">Write<br>
+                <input type="checkbox" name="status" value="talk">Talk<br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>
+                    Please select payment type
+                </p>
+                <select name="paymentmode">
+                    <option value="cCard">Credit Card</option>
+                    <option value="dCard">Debit Card</option>
+                    <option value="pp">Paypal Option</option>
+                </select><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>
+                    <input type="file" name="file">
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Reset:</label>
+            </td>
+            <td>
+                <input type="reset" name="reset">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input style="font-family: cursive; font-weight: bold; color: darkorange" type="submit"
+                       value="Click here to submit!">
+            </td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>
