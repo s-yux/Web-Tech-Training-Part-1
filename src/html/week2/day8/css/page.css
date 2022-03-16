@@ -1,0 +1,14 @@
+h1,h2,h3{
+    background-color: blue;
+    color: white;
+}
+
+p{
+    font-family: cursive;
+}
+
+.bluebold{
+    color: steelblue;
+    font-size: 20px;
+    font-family: monospace;
+}
