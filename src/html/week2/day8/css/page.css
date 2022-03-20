@@ -1,14 +1,22 @@
-h1,h2,h3{
-    background-color: blue;
-    color: white;
-}
-
+/* Tag Selector */
 p{
     font-family: cursive;
 }
 
+/* ID Selector */
+#para{
+    color: deeppink;
+}
+
+/* Class Selector */
 .bluebold{
     color: steelblue;
     font-size: 20px;
     font-family: monospace;
+}
+
+/* Group Selector */
+h1,h2,h3{
+    background-color: blue;
+    color: white;
 }

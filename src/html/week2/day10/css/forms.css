@@ -1,0 +1,50 @@
+input:enabled{
+    color: violet;
+}
+
+input[type="number"]{
+    color: red;
+}
+
+input:disabled{
+    color: grey;
+}
+
+input:focus{
+    background-color: aqua;
+}
+
+input:optional{
+    background-color: silver;
+}
+
+input:required{
+    border: 2px royalblue solid;
+}
+
+input:valid{
+    border: 2px green solid;
+}
+
+input:invalid{
+    color: red;
+}
+
+input:checked{
+    font-family: "Courier New";
+    background-color: orange;
+}
+
+p{
+    line-height: 3.5em;
+    font-family: Jokerman;
+    width: 100px;
+    border: 2px red solid;
+    padding: 50px 50px 50px 50px;
+    margin: 50px;
+}
+
+span{
+    font-weight: bolder;
+    font-size: 5em;
+}

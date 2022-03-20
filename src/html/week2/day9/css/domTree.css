@@ -1,0 +1,35 @@
+/*  Descendant selector */
+div p{
+    color: yellow;
+}
+
+footer p{
+    color: orange;
+}
+
+/* combinational selector */
+div #innerDiv p{
+    background: steelblue;
+}
+
+/* Direct Child Selector, Can go 3 layers down also */
+header > a{
+    color:red;
+    background-color: black;
+}
+
+h2+p{
+    font-family: Cambria;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: yellow;
+}
+
+h2~p{
+    border: red 2px solid;
+}
+
+h2~a{
+    border: turquoise 2px dotted;
+}
+

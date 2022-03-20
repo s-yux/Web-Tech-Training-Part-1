@@ -1,0 +1,21 @@
+.board {
+    border-collapse: collapse;
+}
+
+.board th {
+    padding: 0.5em;
+}
+
+.board td {
+    border: 1px solid;
+    width: 3em;
+    height: 3em;
+}
+
+.board .white {
+    background: white;
+}
+
+.board .black {
+    background: black;
+}

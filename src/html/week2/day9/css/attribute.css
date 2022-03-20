@@ -1,0 +1,25 @@
+[align="center"]{
+    color: blue;
+}
+
+[align^="l"]{
+    color: red;
+}
+
+p[align^="r"]{
+    color: lime;
+}
+
+h1[align$="r"]{
+    color: violet;
+    background-color: burlywood;
+}
+
+a[title*="my"]{
+    font-family: Jokerman;
+}
+
+a[title~="Facebook"]{
+    color: white;
+    background-color: blue;
+}
