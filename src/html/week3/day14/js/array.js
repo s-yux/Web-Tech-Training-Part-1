@@ -44,6 +44,13 @@
 // nums.sort();
 // document.write(nums + "<br>");
 
+var num = [1,108,55,709,88]
+document.write("Wrong sorting: " + num.sort() + "<br>")
+var after = num.sort((a, b) =>{
+    return a-b;
+})
+document.write("Correct sorting: " + after)
+
 // //splice method
 // var arr = [1,2,3,4,5]
 // var deleted = arr.splice(1,3, 99, 999, 999, 9999, 99999)
@@ -90,9 +97,9 @@
 // })
 // document.write(newNum)
 
-//Reduce
-var num = [1,2,3,4,5,6,7,8,9,10]
-var total = num.reduce((prev, curr, index, ar) =>{
-    return prev+curr;
-})
-document.write(total)
+// //Reduce
+// var num = [1,2,3,4,5,6,7,8,9,10]
+// var total = num.reduce((prev, curr, index, ar) =>{
+//     return prev+curr;
+// })
+// document.write(total)
