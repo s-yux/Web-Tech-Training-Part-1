@@ -15,21 +15,6 @@ h1 {
     text-align: center;
 }
 
-/* Reset Button */
-#but {
-    box-sizing: border-box;
-    width: 95px;
-    height: 40px;
-    border: 1px solid deeppink;
-    margin: auto;
-    border-radius: 4px;
-    font-family: cursive;
-    background-color: deeppink;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-}
-
 /* Player turn space */
 #print {
     font-family: cursive;

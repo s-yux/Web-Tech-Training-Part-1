@@ -240,7 +240,7 @@ function myfunc() {
 }
 
 // Function to reset game
-function myfunc_2() {
+function resetBoard() {
     location.reload();
     document.getElementById('b1').value = '';
     document.getElementById("b2").value = '';
