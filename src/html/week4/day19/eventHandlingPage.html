@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Event Handling</title>
+</head>
+<body>
+<form>
+    <p>Welcome to Javascript Session!</p>
+    <input type="button" value="OnClick() event" onclick="mouseClicked()">
+    <br>
+    <input type="button" value="OnMouseOver() event" onmouseover="mouseOver()">
+    <br>
+    <input type="text" id="a" onfocus="mouseFocus1()">
+    <br>
+    <input type="text" id="b" onfocus="mouseFocus2()">
+    <br>
+    <input type="text" id="c" onfocus="mouseFocus3()">
+    <br>
+    <input type="button" value="Mousedown()" onmousedown="mouseDown()">
+    <br>
+    <input type="button" value="MouseOut()" onmouseout="mouseOut()">
+    <br>
+    <input type="button" value="keyUp()" onkeyup="keyUp()">
+    <br>
+    <input type="button" value="asdSubmit()" onsubmit="asdSubmit()">
+    <br>
+    <input type="button" value="asdChange()" onchange="asdChange()">
+    <br>
+</form>
+</body>
+</html>
+
+<script>
+    function mouseClicked() {
+        document.write("Enjoy Learning!")
+    }
+
+    function mouseOver() {
+        alert("Mouse over a button!")
+    }
+
+    function mouseFocus1() {
+        document.getElementById("a").style.background = "cyan";
+    }
+
+    function mouseFocus2() {
+        document.getElementById("b").style.background = "red";
+    }
+
+    function mouseFocus3() {
+        document.getElementById("c").style.background = "blue";
+    }
+
+    function mouseDown(){
+        alert("Should be press and hold.!")
+    }
+
+    function mouseOut(){
+        alert("mouseOut!")
+    }
+
+    function keyUp(){
+        alert("keyUp!")
+    }
+
+    function asdSubmit(){
+        alert("asdSubmit!")
+    }
+
+    function asdChange(){
+        alert("asdChange!")
+    }
+</script>
